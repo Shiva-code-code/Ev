@@ -8,21 +8,31 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAFjuTRI1H3flBsCYqibpIdPaEn2WwQMG0"
+      }
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+      "package": "com.shivahazari.evchargerapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAFjuTRI1H3flBsCYqibpIdPaEn2WwQMG0"
+        }
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ad23087-10c6-4f34-9c42-e9e6b95c792a"
+      }
     }
   }
 }

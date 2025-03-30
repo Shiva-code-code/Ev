@@ -1,0 +1,271 @@
+{
+  "chargers": [
+    {
+      "name": "EV Charger Station 1",
+      "id": "c001",
+      "address": "Zone 1, Hyderabad",
+      "distance": "1563",
+      "distance_metrics": "metres",
+      "latitude": "17.3960568",
+      "longitude": "78.5034174",
+      "connector_types": [
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 2",
+      "id": "c002",
+      "address": "Zone 2, Hyderabad",
+      "distance": "491",
+      "distance_metrics": "metres",
+      "latitude": "17.3983164",
+      "longitude": "78.4712424",
+      "connector_types": [
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 3",
+      "id": "c003",
+      "address": "Zone 3, Hyderabad",
+      "distance": "1437",
+      "distance_metrics": "metres",
+      "latitude": "17.3976151",
+      "longitude": "78.4903251",
+      "connector_types": [
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 4",
+      "id": "c004",
+      "address": "Zone 4, Hyderabad",
+      "distance": "2462",
+      "distance_metrics": "metres",
+      "latitude": "17.377333",
+      "longitude": "78.4889834",
+      "connector_types": [
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 5",
+      "id": "c005",
+      "address": "Zone 5, Hyderabad",
+      "distance": "1887",
+      "distance_metrics": "metres",
+      "latitude": "17.3774392",
+      "longitude": "78.496726",
+      "connector_types": [
+        "lvl1dc-3",
+        "normalac-2"
+      ]
+    },
+    {
+      "name": "EV Charger Station 6",
+      "id": "c006",
+      "address": "Zone 6, Hyderabad",
+      "distance": "2258",
+      "distance_metrics": "metres",
+      "latitude": "17.3932778",
+      "longitude": "78.4861796",
+      "connector_types": [
+        "lvl1dc-1",
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 7",
+      "id": "c007",
+      "address": "Zone 7, Hyderabad",
+      "distance": "245",
+      "distance_metrics": "metres",
+      "latitude": "17.3812674",
+      "longitude": "78.4958999",
+      "connector_types": [
+        "lvl1dc-1",
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 8",
+      "id": "c008",
+      "address": "Zone 8, Hyderabad",
+      "distance": "850",
+      "distance_metrics": "metres",
+      "latitude": "17.4025114",
+      "longitude": "78.5062235",
+      "connector_types": [
+        "lvl1dc-2",
+        "lvl2dc-1",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 9",
+      "id": "c009",
+      "address": "Zone 9, Hyderabad",
+      "distance": "1587",
+      "distance_metrics": "metres",
+      "latitude": "17.3668292",
+      "longitude": "78.4785216",
+      "connector_types": [
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 10",
+      "id": "c010",
+      "address": "Zone 10, Hyderabad",
+      "distance": "2433",
+      "distance_metrics": "metres",
+      "latitude": "17.3925368",
+      "longitude": "78.4759432",
+      "connector_types": [
+        "lvl1dc-1",
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 11",
+      "id": "c011",
+      "address": "Zone 11, Hyderabad",
+      "distance": "2448",
+      "distance_metrics": "metres",
+      "latitude": "17.3963493",
+      "longitude": "78.5051327",
+      "connector_types": [
+        "lvl1dc-2",
+        "lvl2dc-1",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 12",
+      "id": "c012",
+      "address": "Zone 12, Hyderabad",
+      "distance": "1228",
+      "distance_metrics": "metres",
+      "latitude": "17.3954452",
+      "longitude": "78.5015231",
+      "connector_types": [
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 13",
+      "id": "c013",
+      "address": "Zone 13, Hyderabad",
+      "distance": "2122",
+      "distance_metrics": "metres",
+      "latitude": "17.3953561",
+      "longitude": "78.4792576",
+      "connector_types": [
+        "lvl1dc-1",
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 14",
+      "id": "c014",
+      "address": "Zone 14, Hyderabad",
+      "distance": "225",
+      "distance_metrics": "metres",
+      "latitude": "17.4017342",
+      "longitude": "78.4717016",
+      "connector_types": [
+        "lvl1dc-3",
+        "normalac-2"
+      ]
+    },
+    {
+      "name": "EV Charger Station 15",
+      "id": "c015",
+      "address": "Zone 15, Hyderabad",
+      "distance": "1303",
+      "distance_metrics": "metres",
+      "latitude": "17.3702156",
+      "longitude": "78.4766636",
+      "connector_types": [
+        "lvl1dc-3",
+        "normalac-2"
+      ]
+    },
+    {
+      "name": "EV Charger Station 16",
+      "id": "c016",
+      "address": "Zone 16, Hyderabad",
+      "distance": "628",
+      "distance_metrics": "metres",
+      "latitude": "17.3711025",
+      "longitude": "78.4938034",
+      "connector_types": [
+        "lvl1dc-3",
+        "normalac-2"
+      ]
+    },
+    {
+      "name": "EV Charger Station 17",
+      "id": "c017",
+      "address": "Zone 17, Hyderabad",
+      "distance": "308",
+      "distance_metrics": "metres",
+      "latitude": "17.3708797",
+      "longitude": "78.5006725",
+      "connector_types": [
+        "lvl1dc-3",
+        "normalac-2"
+      ]
+    },
+    {
+      "name": "EV Charger Station 18",
+      "id": "c018",
+      "address": "Zone 18, Hyderabad",
+      "distance": "1011",
+      "distance_metrics": "metres",
+      "latitude": "17.3693113",
+      "longitude": "78.4694912",
+      "connector_types": [
+        "lvl1dc-3",
+        "normalac-2"
+      ]
+    },
+    {
+      "name": "EV Charger Station 19",
+      "id": "c019",
+      "address": "Zone 19, Hyderabad",
+      "distance": "1548",
+      "distance_metrics": "metres",
+      "latitude": "17.4003824",
+      "longitude": "78.4826219",
+      "connector_types": [
+        "lvl1dc-1",
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    },
+    {
+      "name": "EV Charger Station 20",
+      "id": "c020",
+      "address": "Zone 20, Hyderabad",
+      "distance": "528",
+      "distance_metrics": "metres",
+      "latitude": "17.3998438",
+      "longitude": "78.499309",
+      "connector_types": [
+        "lvl2dc-2",
+        "normalac-1"
+      ]
+    }
+  ]
+}
