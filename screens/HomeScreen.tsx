@@ -14,6 +14,7 @@ import {
 import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import * as Location from 'expo-location';
 import * as MediaLibrary from 'expo-media-library';
+import * as FileSystem from 'expo-file-system';
 import { captureRef } from 'react-native-view-shot';
 import SearchBar from '../components/SearchBar';
 import { Charger } from '../types';
@@ -84,10 +85,14 @@ export default function HomeScreen() {
       const uri = await captureRef(rootViewRef, {
         format: 'jpg',
         quality: 0.8,
+        result: 'tmpfile',
       });
 
-      const asset = await MediaLibrary.createAssetAsync(uri);
-      Alert.alert('Upload Success ✅', `Screenshot saved to: ${asset.uri}`, [
+      const webpUri = uri.replace('.jpg', '.webp');
+      await FileSystem.moveAsync({ from: uri, to: webpUri });
+      const asset = await MediaLibrary.createAssetAsync(webpUri);
+
+      Alert.alert('Upload Success ✅', `Screenshot saved as .webp to: ${asset.uri}`, [
         {
           text: 'OK',
           onPress: () => simulateUpload(),
